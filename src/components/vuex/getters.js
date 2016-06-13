@@ -5,3 +5,7 @@ export function getCount(state) {
 export function getCountList(state) {
   return state.countList
 }
+
+export function getEventBus(state) {
+  return state.eventBus
+}

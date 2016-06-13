@@ -6,7 +6,8 @@ Vue.use(Vuex)
 
 const state = {
   count: 0,
-  countList: {}
+  countList: {},
+  eventBus: new Vue()
 }
 
 const mutations = {
